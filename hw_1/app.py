@@ -1,3 +1,9 @@
+import os
+import sys
+
+# Добавляем текущую папку в sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 import streamlit as st
 import pandas as pd
 import plotly.express as px
