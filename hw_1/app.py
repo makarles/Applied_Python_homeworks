@@ -1,12 +1,13 @@
-import streamlit as st
 import sys
 import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+import streamlit as st
 import pandas as pd
 import plotly.express as px
 from temperature_analysis import analyze_temperature, detect_anomalies
 import asyncio
 
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 def main():
     # Настройка страницы
     st.set_page_config(
