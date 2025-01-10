@@ -1,4 +1,4 @@
-rom api import fetch_temperature
+from api import fetch_temperature
 import streamlit as st
 
 
