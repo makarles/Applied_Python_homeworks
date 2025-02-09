@@ -123,3 +123,4 @@ $\text{calorie target} = 10 * \text{weight} + 6.25 * \text{height} - 5 * \text{a
 ![Example 5](img/ap2_5.jpg)
 
 
+![Example 6](img/ap2_6.jpg)
