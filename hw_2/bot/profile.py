@@ -71,7 +71,7 @@ async def set_profile_activity(message: Message, state: FSMContext):
         await message.answer("Пожалуйста, введите корректное число для активности.")
         return
     await state.update_data(activity=activity)
-    await message.answer("В каком городе вы находитесь?")
+    await message.answer("В каком городе вы находитесь? \n Пожалуйста, напишите название города по-английски")
     await state.set_state(ProfileStates.city)
 
 
